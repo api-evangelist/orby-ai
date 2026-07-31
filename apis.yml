@@ -1,8 +1,25 @@
 aid: orby-ai
-name: Orby Ai
-description: Orby Ai is a company surfaced as a portfolio company of wing-venture-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/orby-ai.png
+name: Orby AI
+description: >-
+  Orby AI is an enterprise generative process automation company that uses Large Action Models,
+  neuro-symbolic reasoning, and agentic process discovery to observe how people work and then
+  automate repetitive back-office and desktop workflows across applications. Founded by former
+  DeepMind and Google researchers, Orby was backed by Wing Venture Capital and NEA before being
+  acquired by Uniphore in August 2025, where its technology now powers the Uniphore Business AI
+  Cloud. Orby publishes no public developer API, SDK, or documentation surface; its capabilities are
+  delivered as an enterprise platform accessed via demo and sales engagement.
 url: https://raw.githubusercontent.com/api-evangelist/orby-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +27,20 @@ x-backed-by:
 - wing-venture-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: uniphore
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Artificial Intelligence
+- Automation
+- Agents
+- Process Automation
+- Large Action Models
+- Machine Learning
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.orby.ai/
+- type: GitHubOrganization
+  url: https://github.com/orby-ai-engineering
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
