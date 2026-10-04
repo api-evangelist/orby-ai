@@ -52,7 +52,7 @@ tags:
 - Agents
 - Process Automation
 - Large Action Models
-- Machine-Learning
+- Machine Learning
 - Enterprise
 tags_raw:
 - Company
@@ -63,6 +63,7 @@ tags_raw:
 - Large Action Models
 - Machine Learning
 - Enterprise
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
